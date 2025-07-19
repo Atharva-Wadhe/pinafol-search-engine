@@ -1,4 +1,4 @@
-# Java Search Engine
+# Pinafol - A Search Engine
 
 A basic search engine that supports document indexing, TF-IDF based ranking, autocomplete, and fuzzy search using Java collections.
 
