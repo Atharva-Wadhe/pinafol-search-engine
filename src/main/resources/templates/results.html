@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h2>Results for '<span th:text="${query}"></span>'</h2>
+
+    <ul>
+        <li th:each="res : ${results}" th:text="${res}"></li>
+    </ul>
+
+    <a href="/">🔙 New Search</a>
+</body>
+</html>
